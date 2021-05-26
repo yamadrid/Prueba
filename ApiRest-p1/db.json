@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Pepito",
+      "last_name": "Perez"
+    },
+    {
+      "id": 2,
+      "name": "Ana",
+      "last_name": "Ruiz"
+    },
+    {
+      "id": 3,
+      "name": "Jose",
+      "last_name": "Leal"
+    },
+    {
+      "id": 4,
+      "name": "Maria",
+      "last_name": "Villamizar"
+    },
+    {
+      "id": 5,
+      "name": "Luis",
+      "last_name": "Rivera"
+    },
+    {
+      "id": 6,
+      "name": "Jose",
+      "last_name": "Test"
+    }
+  ]
+}
