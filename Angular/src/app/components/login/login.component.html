@@ -1,0 +1,17 @@
+<div class="container" style="width: 50%;">
+    <!-- Default form subscription -->
+    <form class="text-center border border-light p-5" (ngSubmit)="login()">
+
+        <p class=" h4 mb-4 ">Inicio de Sesión</p>
+
+        <p>También puedes registrarte accediendo al siguiente enlace</p>
+
+        <p><a [routerLink]="[ '/register'] ">Crear Cuenta</a></p>
+
+        <input type="email" id="email" name="email" [(ngModel)]="data.email" class="form-control mb-4 " placeholder="E-mail ">
+        <input type="password" id="password" name="password" [(ngModel)]="data.password" class="form-control mb-4 " placeholder="Contraseña ">
+
+        <button mdbBtn color="info" block="true " type="submit " class="btn btn-primary ">Acceder</button>
+
+    </form>
+</div>

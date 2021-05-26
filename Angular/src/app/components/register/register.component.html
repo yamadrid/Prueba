@@ -1,0 +1,17 @@
+<div class="container" style="width: 50%;">
+    <form class="text-center border border-light p-5" (ngSubmit)="createAccount()">
+
+        <p class="h4 mb-4">Registra tus Datos</p>
+
+        <input type="text" id="name" name="name" [(ngModel)]="user.firstName" class="form-control mb-4" placeholder="Nombre">
+
+        <input type="text" id="last_name" name="last_name" [(ngModel)]="user.lastName" class="form-control mb-4" placeholder="Apellido">
+
+        <input type="email" id="email" name="email" [(ngModel)]="user.email" class="form-control mb-4" placeholder="E-mail">
+
+        <input type="password" id="password" name="password" [(ngModel)]="user.password" class="form-control mb-4" placeholder="Contraseña">
+
+        <button mdbBtn color="info" block="true" type="submit" class="btn btn-primary">Registrar</button>
+
+    </form>
+</div>
